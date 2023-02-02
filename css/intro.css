@@ -1,11 +1,6 @@
-.product {
-    width: 1140px;
-    height: 790px;
-    margin: 0 auto;
-}
-
 .product.product_01 {
     padding: 0 40px;
+    margin-top: 300px;
     display: flex;
     gap: 100px;
     align-items: center;

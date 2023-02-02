@@ -1,20 +1,18 @@
 /* nav end */
-
-.container .thumbnail {
+.thumbnail {
     position: relative;
-    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 
 .container .thumbnail .thumb_text {
-    align-items: center;
-    padding-top: 200px;
-    padding-left: 390px;
-    margin-right: 160px;
+    width: 600px;
+    padding-top: 80px;
 }
 
 .container .thumbnail .thumb_text h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 79px;
 }
 
@@ -28,19 +26,12 @@
     width: 30px;
     height: 30px;
 }
-.thumb_img li {
+
+.thumb_img {
+    background-image: url(/images/profile.jpg);
     width: 450px;
     height: 600px;
-}
-
-.thumb_img .main_photo {
-    /* background-image: url(/images/profile.jpg); */
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    background-color: #ddd;
-    margin: 126px 0 0 20px;
-    z-index: 2;
 }
